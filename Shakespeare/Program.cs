@@ -51,7 +51,7 @@ namespace Shakespeare
             //ask player to enter words
            for(int i=0;i<Words.Length;i++)
             {
-                Console.Write(Repeat(' ',4)+"Please enter a/an " + Prompts[i] + ": ",Color.SkyBlue);
+                Console.Write(Repeat(' ',4)+"Please enter a/an " + Prompts[i] + ": ",Color.DeepSkyBlue);
                 Words[i] = Console.ReadLine();
             }
             
@@ -95,8 +95,7 @@ namespace Shakespeare
             //Console.SetWindowSize(120, 60);
             for (int i = 1; i < 80; i++)
             {
-
-                Console.SetWindowSize(i, i);
+                Console.SetWindowSize(50, i);
                 Thread.Sleep(50);
             }
 
